@@ -1,0 +1,25 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+.vs/
+packages/
+
+# ignore binaries
+
+*.dll
+*.pdb
+*.cache
+
+**/bin/**
+**/obj/**
+
+# ignore .user files
+*.user
+TestResults/**
+*.DS_Store
+
+#ignore jetbrains files
+.idea/*
+
+#ignore veracode files
+.veracode*
+veracode*
+Directory.Build.targets
